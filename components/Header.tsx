@@ -3,7 +3,10 @@ import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 import { SVGProps } from "react"
 
+
 export default function Header() {
+
+  
 
   return (
     <div>
@@ -100,6 +103,9 @@ function MenuIcon(props: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
+
+
+
 
 
 function SearchIcon(props: SVGProps<SVGSVGElement>) {
